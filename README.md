@@ -4,4 +4,4 @@ Versión pública de pruebas para dispositivos móviles.
 
 - Esta compilación no sustituye al juego oficial.
 - Rama de origen: `codex/tablero-adaptable`.
-- Commit de origen: `26fa0c7`.
+- Commit de origen: `1a48ad0`.
