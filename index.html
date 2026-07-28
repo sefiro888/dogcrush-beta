@@ -62,9 +62,9 @@
         var buildUrl = "Build";
         var config = {
             arguments: [],
-            dataUrl: buildUrl + "/docs-publish.data" + vToken,
-            frameworkUrl: buildUrl + "/docs-publish.framework.js" + vToken,
-            codeUrl: buildUrl + "/docs-publish.wasm" + vToken,
+            dataUrl: buildUrl + "/docs.data" + vToken,
+            frameworkUrl: buildUrl + "/docs.framework.js" + vToken,
+            codeUrl: buildUrl + "/docs.wasm" + vToken,
             streamingAssetsUrl: "StreamingAssets",
             companyName: "DefaultCompany",
             productName: "DOGCRUSH",
@@ -73,7 +73,7 @@
         };
 
         var script = document.createElement("script");
-        script.src = buildUrl + "/docs-publish.loader.js" + vToken;
+        script.src = buildUrl + "/docs.loader.js" + vToken;
         script.onload = function() {
             createUnityInstance(canvas, config, function(progress) {
                 var pct = Math.round(progress * 100);
